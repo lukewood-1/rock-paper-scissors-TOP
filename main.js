@@ -91,7 +91,7 @@ let computerScore = 0;
 	//looping gameplay
 	
 	for(let i = 0; i < 5; i++){
-		setTimeout(playRound(), 3000)
+		playRound()
 	};
 
 	function showResult(){
