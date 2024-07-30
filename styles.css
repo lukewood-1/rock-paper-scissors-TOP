@@ -1,0 +1,47 @@
+*{
+	font-family: 'Ubuntu Mono', 'Ubuntu', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #333;
+	color: #fff;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	gap: 10px;
+}
+
+h1 {
+	padding: 40px;
+	font-size: 3em;
+	text-shadow: 0 0 10px #fff;
+}
+
+button {
+	border-radius: 10px;
+	padding: 10px;
+	background: indigo;
+	color: #fff;
+	border: 3px groove #aaa;
+}
+
+.choiceDiv {
+	display: flex;
+	gap: 30px;
+}
+
+#game-menu {
+	padding: 30px;
+	display: flex;
+}
+
+#message-center {
+	font-size: 2em;
+}
+
+.scoreDiv {
+	padding: 20px;
+}

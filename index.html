@@ -3,9 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Rock Paper Scissors - TOP console game</title>
+	<link rel="stylesheet" href="./styles.css">
+	<script src="main.js" defer></script>
 </head>
 <body style='background: #000; color: #fff'>
-	<h1 style='text-align: center'>The game is entirely on the console, bud ;)</h1>
-	<script src="main.js"></script>
+	<h1 style='text-align: center'>Rock Paper Scissors</h1>
+	<div class="choiceDiv">
+		<button class="choiceBtn" data-value='rock'>rock</button>
+		<button class="choiceBtn" data-value='paper'>paper</button>
+		<button class="choiceBtn" data-value='scissors'>scissors</button>
+	</div>
+	<div id="game-menu">
+		<p id="message-center">message</p>
+	</div>
+	<button class='newRoundBtn'>new round</button>
+	<div class='scoreDiv'><span id="score">FT5</span></div>
 </body>
 </html>
